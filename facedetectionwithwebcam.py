@@ -22,7 +22,7 @@ while 1:
             cv2.rectangle(roi_color,(ex,ey),(ex+ew,ey+eh),(0,255,0),2) #draw box
             cv2.setWindowTitle('img', "Face & Eyes Detected")
 
-    cv2.imshow('img',img) #show img
+    cv2.imshow('img', img) #show img
     k = cv2.waitKey(30) & 0xff #escape key
     if k == 27:
         break
